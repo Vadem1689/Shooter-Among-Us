@@ -641,6 +641,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CoinsForVideoButton
       objectReference: {fileID: 0}
+    - target: {fileID: 6111750531135827772, guid: 7d865aeeeee2f114282c1260f0787ebf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7621996812156589772, guid: 7d865aeeeee2f114282c1260f0787ebf, type: 3}
       propertyPath: m_text
       value: Get 40 coins
@@ -1266,6 +1270,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1289195955}
     m_Modifications:
+    - target: {fileID: 24035410855617438, guid: 7d865aeeeee2f114282c1260f0787ebf, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 2df1a58c9041745d997045fc75f1e6e0, type: 3}
     - target: {fileID: 586698407329675384, guid: 7d865aeeeee2f114282c1260f0787ebf, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1356,7 +1364,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6111750531135827772, guid: 7d865aeeeee2f114282c1260f0787ebf, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7621996812156589772, guid: 7d865aeeeee2f114282c1260f0787ebf, type: 3}
       propertyPath: m_text
@@ -1582,7 +1590,7 @@ MonoBehaviour:
     <Ru>k__BackingField: "\u0412\u044B\u0431\u0440\u0430\u0442\u044C"
     <En>k__BackingField: Select
   selectedText:
-    <Ru>k__BackingField: "\u0412\u044B\u0431\u0440\u0430\u043D\u043D\u043E"
+    <Ru>k__BackingField: "\u0412\u044B\u0431\u0440\u0430\u043D\u043E"
     <En>k__BackingField: Selected
 --- !u!4 &1319150675
 Transform:
@@ -1646,7 +1654,7 @@ PrefabInstance:
     - target: {fileID: 24035410855617438, guid: 7d865aeeeee2f114282c1260f0787ebf, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 9ab56db4e93fc4b98ab8b4a1479f9c6f, type: 3}
+      objectReference: {fileID: 21300000, guid: be67a5105907c4040bb7de60dd9bb708, type: 3}
     - target: {fileID: 24035410855617438, guid: 7d865aeeeee2f114282c1260f0787ebf, type: 3}
       propertyPath: m_Color.b
       value: 0.9215687
@@ -1774,6 +1782,10 @@ PrefabInstance:
     - target: {fileID: 6111750531135827772, guid: 7d865aeeeee2f114282c1260f0787ebf, type: 3}
       propertyPath: m_Name
       value: CloseShopButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111750531135827772, guid: 7d865aeeeee2f114282c1260f0787ebf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7621996812156589772, guid: 7d865aeeeee2f114282c1260f0787ebf, type: 3}
       propertyPath: m_text
