@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d8926b59a94a1f4c9dff46f20270a24, type: 3}
+  m_Name: PistolLight
+  m_EditorClassIdentifier: 
+  gunName: PistolLight
+  gunPrototype: {fileID: 284923219210785112, guid: 7a69bba89519f284bbd68c043982df8d, type: 3}
+  fireRate: 150
+  damage: 15
+  ammoCount: 12
+  reloadDelay: 1

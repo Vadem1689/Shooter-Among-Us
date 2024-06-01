@@ -1,0 +1,39 @@
+{
+  "idSave": 279,
+  "isFirstSession": false,
+  "language": "en",
+  "promptDone": false,
+  "money": 1,
+  "newPlayerName": "Hello!",
+  "openLevels": [
+    false,
+    false,
+    false
+  ],
+  "totalCoins": 696,
+  "totalKills": 98,
+  "selectedSkinIndex": 0,
+  "boughtSkins": [
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "isAudioMuted": false
+}

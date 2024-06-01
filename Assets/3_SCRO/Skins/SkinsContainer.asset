@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a43f4206d3347a29361830ce52b6caf, type: 3}
+  m_Name: SkinsContainer
+  m_EditorClassIdentifier: 
+  <Skins>k__BackingField:
+  - <Animator>k__BackingField: {fileID: 9100000, guid: a00a6093b2a5db046b62bd84b2330a56, type: 2}
+    <FaceSprite>k__BackingField: {fileID: 21300000, guid: 57624dde26d98b2419b2b826751a0963, type: 3}
+    <UiSprite>k__BackingField: {fileID: 21300000, guid: d42c3e03ea6bf4645b07d2ac1788ecd9, type: 3}
+    <DeathSprite>k__BackingField: {fileID: 21300000, guid: 6cfd8e85e35634b4fa809da3ed4758e5, type: 3}
+    <Name>k__BackingField: 
+    <Price>k__BackingField: 20
+  - <Animator>k__BackingField: {fileID: 9100000, guid: 3282735795336a543bbd0de40139a96b, type: 2}
+    <FaceSprite>k__BackingField: {fileID: 21300000, guid: 57624dde26d98b2419b2b826751a0963, type: 3}
+    <UiSprite>k__BackingField: {fileID: 21300000, guid: 5aac2bb58b98a814d8eeaf9480713946, type: 3}
+    <DeathSprite>k__BackingField: {fileID: 21300000, guid: 9a03024648692a442805efe05e16bc50, type: 3}
+    <Name>k__BackingField: 
+    <Price>k__BackingField: 40
+  - <Animator>k__BackingField: {fileID: 9100000, guid: bee1401cff419f44a9ed7d9b0217edcb, type: 2}
+    <FaceSprite>k__BackingField: {fileID: 21300000, guid: 57624dde26d98b2419b2b826751a0963, type: 3}
+    <UiSprite>k__BackingField: {fileID: 21300000, guid: 890b838aa693c2d46963141c07e6b1bd, type: 3}
+    <DeathSprite>k__BackingField: {fileID: 21300000, guid: aaee26e727c80734484e54ed078475a9, type: 3}
+    <Name>k__BackingField: 
+    <Price>k__BackingField: 80
+  - <Animator>k__BackingField: {fileID: 9100000, guid: 9532fee9d0ada784ca2979e76eec0aa4, type: 2}
+    <FaceSprite>k__BackingField: {fileID: 21300000, guid: 57624dde26d98b2419b2b826751a0963, type: 3}
+    <UiSprite>k__BackingField: {fileID: 21300000, guid: 31d3f0bcd3b49f24b9592699c6013e66, type: 3}
+    <DeathSprite>k__BackingField: {fileID: 21300000, guid: aead3b0e7318a584cb42ec6e539d7e9f, type: 3}
+    <Name>k__BackingField: 
+    <Price>k__BackingField: 150
+  - <Animator>k__BackingField: {fileID: 9100000, guid: 4ba776c4dc792c04d988725e97e8fb01, type: 2}
+    <FaceSprite>k__BackingField: {fileID: 21300000, guid: 61cd9e4cf2bff3842b011412791335d5, type: 3}
+    <UiSprite>k__BackingField: {fileID: 21300000, guid: cb9e60325522df741aa5896cca734b08, type: 3}
+    <DeathSprite>k__BackingField: {fileID: 21300000, guid: 02ec441d1ab401d4bbf3d7d04c2898b8, type: 3}
+    <Name>k__BackingField: 
+    <Price>k__BackingField: 300
+  - <Animator>k__BackingField: {fileID: 9100000, guid: cde269467d33d0f47b0005bc96ae4873, type: 2}
+    <FaceSprite>k__BackingField: {fileID: 21300000, guid: 3cb061ade865e224087c41980f65ee8e, type: 3}
+    <UiSprite>k__BackingField: {fileID: 21300000, guid: 9389aa5139fa8c143acfbea493413b3f, type: 3}
+    <DeathSprite>k__BackingField: {fileID: 21300000, guid: c1f0f014045508d46a121349dd647a05, type: 3}
+    <Name>k__BackingField: 
+    <Price>k__BackingField: 600
+  <BotSkinIndex>k__BackingField: 0

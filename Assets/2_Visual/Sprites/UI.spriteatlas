@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UI
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 1024
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 3
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_IgnorePlatformSupport: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 2df1a58c9041745d997045fc75f1e6e0, type: 3}
+    - {fileID: 2800000, guid: 76ac0ca7436d1e048af5abdff64ec96c, type: 3}
+    - {fileID: 2800000, guid: 32ad761034dab9b4aaa4fc4bf888a6f9, type: 3}
+    - {fileID: 2800000, guid: 7c90aaeca3a5add47857bc30561f68f7, type: 3}
+    - {fileID: 2800000, guid: 1002b4aaa2bb68040bd268b8a6ad286f, type: 3}
+    - {fileID: 2800000, guid: ec54ea78b696e4906b4c2fba7cd1b22f, type: 3}
+    - {fileID: 2800000, guid: 999fa70ec7e2e1d4e864d37784753764, type: 3}
+    - {fileID: 2800000, guid: cac943fb2e3bde641a9ceeddfc47f4b5, type: 3}
+    - {fileID: 2800000, guid: 83463df8e9bac4db0b26718b7f40b3db, type: 3}
+    - {fileID: 2800000, guid: 9ab56db4e93fc4b98ab8b4a1479f9c6f, type: 3}
+    - {fileID: 2800000, guid: 05be56bce6cfd364b8c4cc0ba9bc0a62, type: 3}
+    - {fileID: 2800000, guid: 4a10dd315b38b834d98f9fb4a622f1d1, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - 32ad761034dab9b4aaa4fc4bf888a6f9: 21300000
+    - 4a10dd315b38b834d98f9fb4a622f1d1: 21300000
+    - 9ab56db4e93fc4b98ab8b4a1479f9c6f: 21300000
+    - 76ac0ca7436d1e048af5abdff64ec96c: 21300000
+    - ec54ea78b696e4906b4c2fba7cd1b22f: 21300000
+    - 83463df8e9bac4db0b26718b7f40b3db: 21300000
+    - 1002b4aaa2bb68040bd268b8a6ad286f: 21300000
+    - cac943fb2e3bde641a9ceeddfc47f4b5: 21300000
+    - 2df1a58c9041745d997045fc75f1e6e0: 21300000
+    - 05be56bce6cfd364b8c4cc0ba9bc0a62: 21300000
+    - 7c90aaeca3a5add47857bc30561f68f7: 21300000
+    - 999fa70ec7e2e1d4e864d37784753764: 21300000
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 32ad761034dab9b4aaa4fc4bf888a6f9, type: 3}
+  - {fileID: 21300000, guid: 4a10dd315b38b834d98f9fb4a622f1d1, type: 3}
+  - {fileID: 21300000, guid: 9ab56db4e93fc4b98ab8b4a1479f9c6f, type: 3}
+  - {fileID: 21300000, guid: 76ac0ca7436d1e048af5abdff64ec96c, type: 3}
+  - {fileID: 21300000, guid: ec54ea78b696e4906b4c2fba7cd1b22f, type: 3}
+  - {fileID: 21300000, guid: 83463df8e9bac4db0b26718b7f40b3db, type: 3}
+  - {fileID: 21300000, guid: 1002b4aaa2bb68040bd268b8a6ad286f, type: 3}
+  - {fileID: 21300000, guid: cac943fb2e3bde641a9ceeddfc47f4b5, type: 3}
+  - {fileID: 21300000, guid: 2df1a58c9041745d997045fc75f1e6e0, type: 3}
+  - {fileID: 21300000, guid: 05be56bce6cfd364b8c4cc0ba9bc0a62, type: 3}
+  - {fileID: 21300000, guid: 7c90aaeca3a5add47857bc30561f68f7, type: 3}
+  - {fileID: 21300000, guid: 999fa70ec7e2e1d4e864d37784753764, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - volume-on-icon
+  - money
+  - Button_Side01_White
+  - volume-off-icon
+  - Button_Square05_Demo_f
+  - BasicFrame_SquareOutline02_White
+  - WhitePixel
+  - AmmoBox_Opened
+  - Button01_White1
+  - knife
+  - arrowhead-icon
+  - AmmoBox
+  m_RenderDataMap: {}
+  m_Tag: UI
+  m_IsVariant: 0
