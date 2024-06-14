@@ -41,8 +41,12 @@ namespace BRAmongUS.Loot
             
             HintText = consumableType switch
             {
-                EConsumableType.Heal => $"{consumableData.HealHintText.GetText(isRussianLanguage)} {healPercent}% <br> {Constants.IconsTags.Heal}",
-                EConsumableType.Shield => $"{consumableData.ShieldHintText.GetText(isRussianLanguage)} {consumableData.ShieldDuration} {consumableData.SecondsText.GetText(isRussianLanguage)} <br> {Constants.IconsTags.Shield}",
+                //EConsumableType.Heal => $"{consumableData.HealHintText.GetText(isRussianLanguage)} {healPercent}% <br> {Constants.IconsTags.Heal}",
+                //EConsumableType.Shield => $"{consumableData.ShieldHintText.GetText(isRussianLanguage)} {consumableData.ShieldDuration} {consumableData.SecondsText.GetText(isRussianLanguage)} <br> {Constants.IconsTags.Shield}",
+                //_ => HintText
+
+                EConsumableType.Heal => $" <br> {Constants.IconsTags.Heal}",
+                EConsumableType.Shield => $" <br> {Constants.IconsTags.Shield}",
                 _ => HintText
             };
             

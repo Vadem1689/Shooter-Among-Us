@@ -46,7 +46,8 @@ namespace BRAmongUS.Loot
         {
             if (collision.CompareTag(Constants.Tags.Player))
             {
-                OnPlayerInTriggerZone(true);
+                //OnPlayerInTriggerZone(true);
+                Open();
             }
         }
 
@@ -71,7 +72,7 @@ namespace BRAmongUS.Loot
                 gameWindow.ActivateInteractionButton(false);
 
             consumableItemInstance.Init(this);
-            ShowConsumableHint(consumableItemInstance.HintText);
+            //ShowConsumableHint(consumableItemInstance.HintText);
             return loot.lootGun;
         }
 
