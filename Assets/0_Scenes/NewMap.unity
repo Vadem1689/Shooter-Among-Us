@@ -952,6 +952,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 637123143}
+  - {fileID: 1055647911}
   m_Father: {fileID: 1194275949}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -5317,7 +5318,7 @@ MonoBehaviour:
   TotalCoinsText: {fileID: 259590706}
   WinSplash: {fileID: 4654859278033103481}
   LooseSplash: {fileID: 0}
-  interactionButtonCanvasGroup: {fileID: 0}
+  interactionButtonCanvasGroup: {fileID: 1055647913}
   TouchCanvas: {fileID: 2116324707}
   respawnSplash: {fileID: 1797617569}
   finishSplashScreen: {fileID: 4132216633130774331}
@@ -7361,7 +7362,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textMPComponent: {fileID: 0}
+  textMPComponent: {fileID: 880499622}
   uniqueFontTMP: {fileID: 0}
   textLComponent: {fileID: 0}
   infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
@@ -8620,7 +8621,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 8773940813156741619}
+    m_TransformParent: {fileID: 82514887}
     m_Modifications:
     - target: {fileID: 24035410855617438, guid: 7d865aeeeee2f114282c1260f0787ebf, type: 3}
       propertyPath: m_Color.b
@@ -14648,6 +14649,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.2460022, y: 1.5041475}
   m_EdgeRadius: 0
+--- !u!114 &1814387557 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1098522300312457515, guid: 7d865aeeeee2f114282c1260f0787ebf, type: 3}
+  m_PrefabInstance: {fileID: 905432834}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1838888330
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17123,9 +17135,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameSettings: {fileID: 11400000, guid: e51d3c325ae792548ad1c5d7a985b871, type: 2}
   finishSplash: {fileID: 4654859278033103481}
-  killsAmountText: {fileID: 0}
-  coinsAmountText: {fileID: 0}
-  multiplyCoinsButton: {fileID: 0}
+  killsAmountText: {fileID: 1937584362}
+  coinsAmountText: {fileID: 1411564978}
+  multiplyCoinsButton: {fileID: 1814387557}
   fadeDuration: 1
 --- !u!225 &4654859278033103481
 CanvasGroup:
@@ -17249,9 +17261,8 @@ RectTransform:
   - {fileID: 1190447550}
   - {fileID: 490064744}
   - {fileID: 874621418}
-  - {fileID: 880499620}
   - {fileID: 1073679490}
-  - {fileID: 1055647911}
+  - {fileID: 880499620}
   m_Father: {fileID: 637123143}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}

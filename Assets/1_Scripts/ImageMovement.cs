@@ -7,7 +7,7 @@ public class ImageMovement : MonoBehaviour
 {
     public Image image; // Ссылка на картинку (UI элемент)
     public float speed = 5f; // Скорость перемещения
-    public float duplicationThreshold = 0.5f; // Порог для дублирования (0-1)
+    public float maxOffset = 30f; // Максимальное смещение за рамку
 
     private RectTransform imageRect;
     private Vector2 initialPosition;
@@ -29,38 +29,18 @@ public class ImageMovement : MonoBehaviour
     {
         // Получаем изменение позиции мыши
         Vector2 mouseDelta = new Vector2(Input.GetAxis("Mouse X"), Input.GetAxis("Mouse Y"));
-        print(mouseDelta);
-        // Перемещаем картинку в том же направлении
-        imageRect.anchoredPosition += mouseDelta ;
+        // Масштабируем скорость
+        mouseDelta *= speed * Time.deltaTime;
 
-        // Проверяем, нужно ли дублировать картинку
-        if (CheckDuplication())
-        {
-            DuplicateImage();
-        }
-    }
+        // Ограничиваем смещение за рамки
+        float newX = Mathf.Clamp(imageRect.anchoredPosition.x + mouseDelta.x,
+                                initialPosition.x - maxOffset,
+                                initialPosition.x + maxOffset);
+        float newY = Mathf.Clamp(imageRect.anchoredPosition.y + mouseDelta.y,
+                                initialPosition.y - maxOffset,
+                                initialPosition.y + maxOffset);
 
-    // Проверка, нужно ли дублировать картинку
-    private bool CheckDuplication()
-    {
-        // Проверяем, находится ли мышь ближе, чем "duplicationThreshold" к краю картинки
-        return (imageRect.anchoredPosition.x < initialPosition.x - imageWidth * duplicationThreshold ||
-                imageRect.anchoredPosition.x > initialPosition.x + imageWidth * duplicationThreshold ||
-                imageRect.anchoredPosition.y < initialPosition.y - imageHeight * duplicationThreshold ||
-                imageRect.anchoredPosition.y > initialPosition.y + imageHeight * duplicationThreshold);
-    }
-
-    // Дублирование картинки
-    private void DuplicateImage()
-    {
-        // Создаем дубликат картинки
-        Image newImage = Instantiate(image);
-        // Устанавливаем позицию дубликата
-        newImage.rectTransform.anchoredPosition = imageRect.anchoredPosition;
-        // Устанавливаем родителя дубликата
-        newImage.transform.SetParent(image.transform.parent);
-
-        // Обновляем начальную позицию
-        initialPosition = imageRect.anchoredPosition;
+        // Устанавливаем новую позицию
+        imageRect.anchoredPosition = new Vector2(newX, newY);
     }
 }
