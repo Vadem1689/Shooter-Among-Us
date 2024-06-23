@@ -14,16 +14,16 @@ namespace BRAmongUS.Skins
         {
             skinData = tempSkinData;
             skinImage.sprite = skinData.UiSprite;
-            faceImage.sprite = skinData.FaceSprite;
+            //faceImage.sprite = skinData.FaceSprite;
 
-            if (faceImage.sprite.name == "Background")
-            {
-                print("1");
-                faceImage.gameObject.SetActive(false);
-            }
+            //if (skinImage.sprite.name == "Among")
+            //{
+            //    print("1");
+            //    faceImage.gameObject.SetActive(false);
+            //}
             
 
-            print(faceImage.sprite.name);
+            //print(faceImage.sprite.name);
         }
     }
 }

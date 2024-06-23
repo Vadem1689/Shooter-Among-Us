@@ -21,7 +21,14 @@ public class PlayerGraphics : MonoBehaviour
     public void SetPlayerSkin(in SkinData skinData) 
     {
         animator.runtimeAnimatorController = skinData.Animator;
-        face.sprite = skinData.FaceSprite;
+
+        //face.sprite = skinData.FaceSprite;
+
+        //if(face.sprite.name == "Background")
+        //{
+        //    face.gameObject.SetActive(false);
+        //    print("получ");
+        //}
     }
     
     public void Look(Vector2 direction) {
