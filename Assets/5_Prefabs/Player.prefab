@@ -245,8 +245,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.01828003, y: 0.03778076}
-  m_Size: {x: 0.7526245, y: 1.1278076}
+  m_Offset: {x: 0.0182724, y: 0.10082245}
+  m_Size: {x: 1.4250946, y: 1.5061188}
   m_Direction: 0
 --- !u!114 &7804796581946308428
 MonoBehaviour:
@@ -1044,7 +1044,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 7560421330582272254, guid: 95982cafa9ebe9a46a1f9964bd6d58bb, type: 2}
+  - {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1088,8 +1088,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\u0430 \u0422\u043E\u043A\u0430\u0440\u0435\u0432\u0430"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 95982cafa9ebe9a46a1f9964bd6d58bb, type: 2}
-  m_sharedMaterial: {fileID: 7560421330582272254, guid: 95982cafa9ebe9a46a1f9964bd6d58bb, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1123,7 +1123,7 @@ MonoBehaviour:
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
-  m_characterSpacing: 0
+  m_characterSpacing: -14.14
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0

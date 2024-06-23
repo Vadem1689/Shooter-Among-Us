@@ -46,10 +46,11 @@ namespace BRAmongUS.Loot
         {
             if (collision.CompareTag(Constants.Tags.Player))
             {
-                //OnPlayerInTriggerZone(true);
+                OnPlayerInTriggerZone(true);
                 Open();
             }
         }
+        
 
         private void OnTriggerExit2D(Collider2D collision)
         {
@@ -72,7 +73,7 @@ namespace BRAmongUS.Loot
                 gameWindow.ActivateInteractionButton(false);
 
             consumableItemInstance.Init(this);
-            //ShowConsumableHint(consumableItemInstance.HintText);
+            ShowConsumableHint(consumableItemInstance.HintText);
             return loot.lootGun;
         }
 
@@ -117,9 +118,9 @@ namespace BRAmongUS.Loot
             
             if (isMobile)
             {
-                if(insideZone)
+                if (insideZone)
                 {
-                    gameWindow.ActivateInteractionButton(IsClosed);
+                    //gameWindow.ActivateInteractionButton(IsClosed);
                     gameWindow.ShowInteractionButton();
                 }
                 else
