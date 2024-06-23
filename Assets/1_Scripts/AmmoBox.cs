@@ -84,7 +84,7 @@ namespace BRAmongUS.Loot
             if (isPlayerInTriggerZone)
             {
                 if (isMobile && isPlayerInTriggerZone)
-                    gameWindow.ActivateInteractionButton(true); 
+                    gameWindow.ActivateInteractionButton(true);
                 else
                     hintText.enabled = true;
             }
@@ -120,7 +120,7 @@ namespace BRAmongUS.Loot
             {
                 if (insideZone)
                 {
-                    //gameWindow.ActivateInteractionButton(IsClosed);
+                    gameWindow.ActivateInteractionButton(IsClosed);
                     gameWindow.ShowInteractionButton();
                 }
                 else

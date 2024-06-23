@@ -19,7 +19,10 @@ namespace BehaviorDesigner.Runtime.Tasks.Movement
 
         public override TaskStatus OnUpdate()
         {
+            Debug.Log("Пробуем");
             if (player.CanOpenAmmoBox()) {
+
+                Debug.Log("Gjkex");
                 player.SwitchGunFromBox();
                 return TaskStatus.Success;
             }

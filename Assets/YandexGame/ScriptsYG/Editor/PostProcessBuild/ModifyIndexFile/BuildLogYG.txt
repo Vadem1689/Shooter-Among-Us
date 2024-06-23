@@ -1,2 +1,2 @@
-Build path: C:/Unity PROJECT/gitH/Shooter-Among-Us/Logs/Yandex9
-Build number: 229
+Build path: C:/Unity PROJECT/gitH/Shooter-Among-Us/Logs/Yandex10
+Build number: 230
