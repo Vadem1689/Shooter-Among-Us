@@ -630,6 +630,10 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1335582798913126175, guid: 7d865aeeeee2f114282c1260f0787ebf, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1335582798913126175, guid: 7d865aeeeee2f114282c1260f0787ebf, type: 3}
       propertyPath: componentTextField
       value: 1
       objectReference: {fileID: 0}
@@ -645,13 +649,29 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7135670500835510913, guid: 7d865aeeeee2f114282c1260f0787ebf, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -45.9226
+      objectReference: {fileID: 0}
+    - target: {fileID: 7135670500835510913, guid: 7d865aeeeee2f114282c1260f0787ebf, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -13.5067
+      objectReference: {fileID: 0}
+    - target: {fileID: 7135670500835510913, guid: 7d865aeeeee2f114282c1260f0787ebf, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -4.0519104
+      objectReference: {fileID: 0}
+    - target: {fileID: 7135670500835510913, guid: 7d865aeeeee2f114282c1260f0787ebf, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 6.7533035
+      objectReference: {fileID: 0}
     - target: {fileID: 7621996812156589772, guid: 7d865aeeeee2f114282c1260f0787ebf, type: 3}
       propertyPath: m_text
-      value: Get 40 coins
+      value: "\u041F\u043E\u043B\u0443\u0447\u0438\u0442\u044C 40 \u043C\u043E\u043D\u0435\u0442"
       objectReference: {fileID: 0}
     - target: {fileID: 7621996812156589772, guid: 7d865aeeeee2f114282c1260f0787ebf, type: 3}
       propertyPath: m_fontSize
-      value: 63.97
+      value: 41.01
       objectReference: {fileID: 0}
     - target: {fileID: 7621996812156589772, guid: 7d865aeeeee2f114282c1260f0787ebf, type: 3}
       propertyPath: m_fontAsset
@@ -678,12 +698,16 @@ PrefabInstance:
       value: 63.97
       objectReference: {fileID: 0}
     - target: {fileID: 7621996812156589772, guid: 7d865aeeeee2f114282c1260f0787ebf, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 41.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 7621996812156589772, guid: 7d865aeeeee2f114282c1260f0787ebf, type: 3}
       propertyPath: m_sharedMaterial
       value: 
       objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     - target: {fileID: 7621996812156589772, guid: 7d865aeeeee2f114282c1260f0787ebf, type: 3}
       propertyPath: m_enableAutoSizing
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7621996812156589772, guid: 7d865aeeeee2f114282c1260f0787ebf, type: 3}
       propertyPath: m_fontColor32.rgba
@@ -888,7 +912,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1710,7 +1734,7 @@ PrefabInstance:
     - target: {fileID: 24035410855617438, guid: 7d865aeeeee2f114282c1260f0787ebf, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: be67a5105907c4040bb7de60dd9bb708, type: 3}
+      objectReference: {fileID: 21300000, guid: 5c46ef710057f44aa94ce6228085bfd8, type: 3}
     - target: {fileID: 24035410855617438, guid: 7d865aeeeee2f114282c1260f0787ebf, type: 3}
       propertyPath: m_Color.b
       value: 0.9215687
@@ -1889,6 +1913,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1862512054}
     m_Modifications:
+    - target: {fileID: 4266210490168689770, guid: 5f82049a433852f429b6975107f65568, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4303980169065658557, guid: 5f82049a433852f429b6975107f65568, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5

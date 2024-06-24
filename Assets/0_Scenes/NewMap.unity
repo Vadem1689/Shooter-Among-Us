@@ -1987,6 +1987,10 @@ PrefabInstance:
       propertyPath: ammoLoot
       value: 
       objectReference: {fileID: 11400000, guid: cc09df5201bba344b81f444ec1c269a8, type: 2}
+    - target: {fileID: 4247021451596312327, guid: 534418825d16fbe47b9ce7c0f45bceba, type: 3}
+      propertyPath: playerInputResponseController
+      value: 
+      objectReference: {fileID: 1872579266}
     - target: {fileID: 4576574094132493716, guid: 534418825d16fbe47b9ce7c0f45bceba, type: 3}
       propertyPath: m_Name
       value: AmmoBox (7)
@@ -2006,6 +2010,10 @@ PrefabInstance:
     - target: {fileID: 4840286759140727843, guid: 534418825d16fbe47b9ce7c0f45bceba, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6838892184955394308, guid: 534418825d16fbe47b9ce7c0f45bceba, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7978063747733573241, guid: 534418825d16fbe47b9ce7c0f45bceba, type: 3}
       propertyPath: m_AnchorMax.x
@@ -2693,6 +2701,10 @@ PrefabInstance:
       propertyPath: ammoLoot
       value: 
       objectReference: {fileID: 11400000, guid: 682875bd33992c04a8248c446c1c2cc3, type: 2}
+    - target: {fileID: 4247021451596312327, guid: 534418825d16fbe47b9ce7c0f45bceba, type: 3}
+      propertyPath: playerInputResponseController
+      value: 
+      objectReference: {fileID: 1872579266}
     - target: {fileID: 4576574094132493716, guid: 534418825d16fbe47b9ce7c0f45bceba, type: 3}
       propertyPath: m_Name
       value: AmmoBox (3)
@@ -3255,6 +3267,10 @@ PrefabInstance:
       propertyPath: ammoLoot
       value: 
       objectReference: {fileID: 11400000, guid: 99811627fa52fcc4cabb6bdc1a0b8c34, type: 2}
+    - target: {fileID: 4247021451596312327, guid: 534418825d16fbe47b9ce7c0f45bceba, type: 3}
+      propertyPath: playerInputResponseController
+      value: 
+      objectReference: {fileID: 1872579266}
     - target: {fileID: 4576574094132493716, guid: 534418825d16fbe47b9ce7c0f45bceba, type: 3}
       propertyPath: m_Name
       value: AmmoBox (1)
@@ -3274,6 +3290,10 @@ PrefabInstance:
     - target: {fileID: 4840286759140727843, guid: 534418825d16fbe47b9ce7c0f45bceba, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6838892184955394308, guid: 534418825d16fbe47b9ce7c0f45bceba, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7978063747733573241, guid: 534418825d16fbe47b9ce7c0f45bceba, type: 3}
       propertyPath: m_AnchorMax.x
@@ -3586,13 +3606,21 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7135670500835510913, guid: 7d865aeeeee2f114282c1260f0787ebf, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -34.6156
+      objectReference: {fileID: 0}
+    - target: {fileID: 7135670500835510913, guid: 7d865aeeeee2f114282c1260f0787ebf, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 1.0181885
+      objectReference: {fileID: 0}
     - target: {fileID: 7621996812156589772, guid: 7d865aeeeee2f114282c1260f0787ebf, type: 3}
       propertyPath: m_text
-      value: Leaderboard
+      value: "\u0422\u0430\u0431\u043B\u0438\u0446\u0430 \u043B\u0438\u0434\u0435\u0440\u043E\u0432"
       objectReference: {fileID: 0}
     - target: {fileID: 7621996812156589772, guid: 7d865aeeeee2f114282c1260f0787ebf, type: 3}
       propertyPath: m_fontSize
-      value: 71.6
+      value: 54.8
       objectReference: {fileID: 0}
     - target: {fileID: 7621996812156589772, guid: 7d865aeeeee2f114282c1260f0787ebf, type: 3}
       propertyPath: m_fontAsset
@@ -3648,7 +3676,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 417206636}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
   m_Name: 
@@ -4544,6 +4572,10 @@ PrefabInstance:
       propertyPath: ammoLoot
       value: 
       objectReference: {fileID: 11400000, guid: 682875bd33992c04a8248c446c1c2cc3, type: 2}
+    - target: {fileID: 4247021451596312327, guid: 534418825d16fbe47b9ce7c0f45bceba, type: 3}
+      propertyPath: playerInputResponseController
+      value: 
+      objectReference: {fileID: 1872579266}
     - target: {fileID: 4576574094132493716, guid: 534418825d16fbe47b9ce7c0f45bceba, type: 3}
       propertyPath: m_Name
       value: AmmoBox (6)
@@ -4563,6 +4595,10 @@ PrefabInstance:
     - target: {fileID: 4840286759140727843, guid: 534418825d16fbe47b9ce7c0f45bceba, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6838892184955394308, guid: 534418825d16fbe47b9ce7c0f45bceba, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7978063747733573241, guid: 534418825d16fbe47b9ce7c0f45bceba, type: 3}
       propertyPath: m_AnchorMax.x
@@ -7767,6 +7803,10 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1335582798913126175, guid: 7d865aeeeee2f114282c1260f0787ebf, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1335582798913126175, guid: 7d865aeeeee2f114282c1260f0787ebf, type: 3}
       propertyPath: componentTextField
       value: 1
       objectReference: {fileID: 0}
@@ -7792,7 +7832,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7621996812156589772, guid: 7d865aeeeee2f114282c1260f0787ebf, type: 3}
       propertyPath: m_text
-      value: New game
+      value: "\u041D\u043E\u0432\u0430\u044F \u0438\u0433\u0440\u0430"
       objectReference: {fileID: 0}
     - target: {fileID: 7621996812156589772, guid: 7d865aeeeee2f114282c1260f0787ebf, type: 3}
       propertyPath: m_fontSize
@@ -8846,6 +8886,10 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1335582798913126175, guid: 7d865aeeeee2f114282c1260f0787ebf, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1335582798913126175, guid: 7d865aeeeee2f114282c1260f0787ebf, type: 3}
       propertyPath: componentTextField
       value: 1
       objectReference: {fileID: 0}
@@ -8863,11 +8907,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7621996812156589772, guid: 7d865aeeeee2f114282c1260f0787ebf, type: 3}
       propertyPath: m_text
-      value: Open
+      value: "\u041E\u0442\u043A\u0440\u044B\u0442\u044C"
       objectReference: {fileID: 0}
     - target: {fileID: 7621996812156589772, guid: 7d865aeeeee2f114282c1260f0787ebf, type: 3}
       propertyPath: m_fontSize
-      value: 72
+      value: 57.45
       objectReference: {fileID: 0}
     - target: {fileID: 7621996812156589772, guid: 7d865aeeeee2f114282c1260f0787ebf, type: 3}
       propertyPath: m_fontAsset
@@ -10700,6 +10744,10 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1335582798913126175, guid: 7d865aeeeee2f114282c1260f0787ebf, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1335582798913126175, guid: 7d865aeeeee2f114282c1260f0787ebf, type: 3}
       propertyPath: componentTextField
       value: 1
       objectReference: {fileID: 0}
@@ -10725,9 +10773,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7621996812156589772, guid: 7d865aeeeee2f114282c1260f0787ebf, type: 3}
       propertyPath: m_text
-      value: 'Shop
-
-'
+      value: "\u041C\u0430\u0433\u0430\u0437\u0438\u043D"
       objectReference: {fileID: 0}
     - target: {fileID: 7621996812156589772, guid: 7d865aeeeee2f114282c1260f0787ebf, type: 3}
       propertyPath: m_fontSize
@@ -11968,6 +12014,10 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1335582798913126175, guid: 7d865aeeeee2f114282c1260f0787ebf, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1335582798913126175, guid: 7d865aeeeee2f114282c1260f0787ebf, type: 3}
       propertyPath: componentTextField
       value: 1
       objectReference: {fileID: 0}
@@ -11993,11 +12043,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7621996812156589772, guid: 7d865aeeeee2f114282c1260f0787ebf, type: 3}
       propertyPath: m_text
-      value: Double reward
+      value: "\u0423\u0434\u0432\u043E\u0438\u0442\u044C \u043D\u0430\u0433\u0440\u0430\u0434\u0443"
       objectReference: {fileID: 0}
     - target: {fileID: 7621996812156589772, guid: 7d865aeeeee2f114282c1260f0787ebf, type: 3}
       propertyPath: m_fontSize
-      value: 56.8
+      value: 48.15
       objectReference: {fileID: 0}
     - target: {fileID: 7621996812156589772, guid: 7d865aeeeee2f114282c1260f0787ebf, type: 3}
       propertyPath: m_fontAsset
@@ -14379,6 +14429,10 @@ PrefabInstance:
       propertyPath: ammoLoot
       value: 
       objectReference: {fileID: 11400000, guid: cc09df5201bba344b81f444ec1c269a8, type: 2}
+    - target: {fileID: 4247021451596312327, guid: 534418825d16fbe47b9ce7c0f45bceba, type: 3}
+      propertyPath: playerInputResponseController
+      value: 
+      objectReference: {fileID: 1872579266}
     - target: {fileID: 4576574094132493716, guid: 534418825d16fbe47b9ce7c0f45bceba, type: 3}
       propertyPath: m_Name
       value: AmmoBox (5)
@@ -14398,6 +14452,10 @@ PrefabInstance:
     - target: {fileID: 4840286759140727843, guid: 534418825d16fbe47b9ce7c0f45bceba, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6838892184955394308, guid: 534418825d16fbe47b9ce7c0f45bceba, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7978063747733573241, guid: 534418825d16fbe47b9ce7c0f45bceba, type: 3}
       propertyPath: m_AnchorMax.x
@@ -15512,6 +15570,10 @@ PrefabInstance:
       propertyPath: m_FlipX
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4247021451596312327, guid: 534418825d16fbe47b9ce7c0f45bceba, type: 3}
+      propertyPath: playerInputResponseController
+      value: 
+      objectReference: {fileID: 1872579266}
     - target: {fileID: 4576574094132493716, guid: 534418825d16fbe47b9ce7c0f45bceba, type: 3}
       propertyPath: m_Name
       value: AmmoBox (4)

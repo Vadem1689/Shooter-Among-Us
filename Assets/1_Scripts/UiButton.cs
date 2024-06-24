@@ -28,7 +28,10 @@ namespace BRAmongUS.UI
         private void OnClick()
         {
             if (playSoundOnClick)
+            {
+                print("Ѕыл");
                 audioController.PlaySound(ESoundType.ButtonClick);
+            }
         }
     }
 }

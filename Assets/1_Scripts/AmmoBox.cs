@@ -9,6 +9,8 @@ namespace BRAmongUS.Loot
 {
     public sealed class AmmoBox : MonoBehaviour
     {
+        [SerializeField] private PlayerInputControllerLegacy playerInputResponseController;
+
         [SerializeField] private SpriteRenderer spriteRenderer;
         [SerializeField] private Sprite openedSprite;
         [SerializeField] private Sprite closedSprite;
@@ -133,6 +135,8 @@ namespace BRAmongUS.Loot
                 if (IsClosed)
                     hintText.enabled = insideZone;
             }
+
+            playerInputResponseController.Interact();
         }
     }
 }
