@@ -5,6 +5,7 @@ using UnityEngine;
 public class MovementController : MonoBehaviour
 {
     [SerializeField] private Rigidbody2D playerRigidBody;
+    [SerializeField] private SpriteRenderer _sprite;
 
     [SerializeField] private float movementSpeed;
 
@@ -16,5 +17,7 @@ public class MovementController : MonoBehaviour
     public void Move(Vector2 movementAmmount)
     {
         playerRigidBody.AddForce(movementAmmount*movementSpeed);
+        
+        print("Тћтт"+movementAmmount);
     }
 }
