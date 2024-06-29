@@ -11,6 +11,7 @@ namespace BRAmongUS.UI
 {
     public sealed class FinishSplashScreen : MonoBehaviour
     {
+        [SerializeField] private GameObject _jostick;
         [SerializeField] private GameSettingsSCRO gameSettings;
         [SerializeField] private CanvasGroup finishSplash;
         [SerializeField] private TMP_Text killsAmountText;
@@ -69,11 +70,13 @@ namespace BRAmongUS.UI
         {
             finishSplash.blocksRaycasts = false;
             GameController.Instance.StartNewGame();
+            _jostick.gameObject.SetActive(true);
         }
         
         private void OnSceneUnloaded(Scene scene)
         {
             finishSplash.blocksRaycasts = true;
+            _jostick.gameObject.SetActive(false);
         }
     }
 }

@@ -5890,7 +5890,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 694552980}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -6044,7 +6044,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 709468173}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -17086,7 +17086,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2135725902}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -17350,6 +17350,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c20e20e290d14970822e98c17e322c29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _jostick: {fileID: 2116324704}
   gameSettings: {fileID: 11400000, guid: e51d3c325ae792548ad1c5d7a985b871, type: 2}
   finishSplash: {fileID: 4654859278033103481}
   killsAmountText: {fileID: 1937584362}
@@ -17498,6 +17499,6 @@ SceneRoots:
   - {fileID: 104369222}
   - {fileID: 76881151}
   - {fileID: 1438351136}
-  - {fileID: 1194275949}
   - {fileID: 2116324708}
+  - {fileID: 1194275949}
   - {fileID: 1780780807}
